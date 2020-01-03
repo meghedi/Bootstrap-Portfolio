@@ -51,7 +51,7 @@ footer{
     padding: 20px 0px;
     text-align: center;
     clear: both;
-    position: fixed;
+    position: relative;
     bottom: 0px;
 }
 .container-fluid, .container, .col-md-6, .col-sm-8{
@@ -146,6 +146,10 @@ footer{
 
     .container{
         max-width: 960px;
+    }
+
+    footer{
+        position: fixed;
     }
 }
 
