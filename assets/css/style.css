@@ -124,7 +124,9 @@ footer{
     margin-left: 0px;
     margin-right: 0px;
 }
-
+.row{
+    margin-right: 0px;
+}
 
 @media (min-width: 576px){
     .float-sm-left {
@@ -150,6 +152,10 @@ footer{
 
     footer{
         position: fixed;
+    }
+      
+    .row{
+        margin-right: -15px;
     }
 }
 
